@@ -947,11 +947,10 @@ namespace LinguagensFormais
                 EMPTY { EAL_c = gen("goto" EALtrue)}*/
         private Boolean EAL(ref string EAL_c, ref string labelTrue, ref string labelFalse)
         {
-
+            string EAL_c1 = "", Rel_c = "", Rel_p = "", RelTrue = "", RelFalse = "";
             if (presentToken == "TK.AND")
             {
                 nextToken();
-                string EAL_c1 = "", Rel_c = "", Rel_p = "", RelTrue = "", RelFalse = "";
                 if (Rel(ref Rel_c,ref Rel_p, ref RelTrue, ref RelFalse))
                 {
                     if(EAL(ref EAL_c1, ref labelTrue, ref labelFalse))
@@ -974,6 +973,21 @@ namespace LinguagensFormais
                     return false;
                 }
             }
+            else if (presentToken == "TK.OR")
+            {
+                if(EOL(ref EAL_c1, ref labelTrue, ref labelFalse))
+                {
+                    geralabel(ref RelFalse);
+                    EAL_c += Rel_c + "\tif " + Rel_p + " goto " + labelTrue + "\n\tgoto " + RelFalse + "\n" + RelFalse + ":\n"
+                            + EAL_c1;
+                    return true;
+                }
+                else
+                {
+                    MessageBox.Show("Erro no comando OR");
+                    return false;
+                }
+            }
             else
             {
                 return false;
@@ -984,11 +998,10 @@ namespace LinguagensFormais
                 EMPTY { EAL_c = gen("goto" EALtrue)}*/
         private Boolean EOL(ref string EOL_c, ref string labelTrue, ref string labelFalse)
         {
-
+            string EOL_c1 = "", Rel_c = "", Rel_p = "", RelTrue = "", RelFalse = "";
             if (presentToken == "TK.OR")
             {
                 nextToken();
-                string EOL_c1 = "", Rel_c = "", Rel_p = "", RelTrue = "", RelFalse = "";
                 if (Rel(ref Rel_c, ref Rel_p, ref RelTrue, ref RelFalse))
                 {
                     if (EOL(ref EOL_c1, ref labelTrue, ref labelFalse))
@@ -1007,6 +1020,21 @@ namespace LinguagensFormais
                 else
                 {
                     MessageBox.Show("Erro no comando OR");
+                    return false;
+                }
+            }
+            else if (presentToken == "TK.AND")
+            {
+                if(EAL(ref EOL_c1, ref labelTrue, ref labelFalse))
+                {
+                    geralabel(ref RelTrue);
+                    EOL_c += Rel_c + "\tif " + Rel_p + " goto " + RelTrue + "\n\tgoto " + labelFalse + "\n" + RelTrue + ":\n"
+                            + EOL_c1;
+                    return true;
+                }
+                else
+                {
+                    MessageBox.Show("Erro no comando AND");
                     return false;
                 }
             }
