@@ -910,6 +910,8 @@ namespace LinguagensFormais
         private Boolean EA(ref string EA_c, ref string labelTrue, ref string labelFalse)
         {
             string Rel_c = "", Rel_p = "", RelTrue = "", RelFalse = "";
+            //geralabel(ref RelTrue);
+            //RelFalse = labelFalse;
             if (Rel(ref Rel_c, ref Rel_p, ref RelTrue, ref RelFalse))
             {
                 string EAL_c = "", EOL_c = "";
@@ -920,6 +922,8 @@ namespace LinguagensFormais
                     geralabel(ref RelTrue);
                     EA_c += Rel_c + "\tif " + Rel_p + " goto " + RelTrue + "\n\tgoto " + labelFalse + "\n" + RelTrue + ":\n"
                             + EAL_c;
+                    //EA_c += Rel_c + RelTrue + ":\n" + EAL_c + "\n";
+                    //MessageBox.Show(EA_c);
                     return true;
                 }
                 if (EOL(ref EOL_c, ref EOLTrue, ref EOLFalse))
@@ -927,11 +931,15 @@ namespace LinguagensFormais
                     geralabel(ref RelFalse);
                     EA_c += Rel_c + "\tif " + Rel_p + " goto " + labelTrue + "\n\tgoto " + RelFalse + "\n" + RelFalse + ":\n"
                             + EOL_c;
+                    //EA_c += Rel_c + RelTrue + ":\n" + EAL_c + "\n";
+                    //MessageBox.Show(EA_c);
                     return true;
                 }
                 else
                 {
                     EA_c += Rel_c + "\tif " + Rel_p + " goto " + labelTrue + "\n\tgoto " + labelFalse + "\n" + labelTrue + ":\n";
+                    //EA_c += Rel_c + RelTrue + ":\n";
+                    //MessageBox.Show(EA_c);
                     return true;
                 }
             }
@@ -952,6 +960,8 @@ namespace LinguagensFormais
             {
                 nextToken();
                 string EAL_c1 = "", Rel_c = "", Rel_p = "", RelTrue = "", RelFalse = "";
+                //geralabel(ref RelTrue);
+                //RelFalse = labelFalse;
                 if (Rel(ref Rel_c,ref Rel_p, ref RelTrue, ref RelFalse))
                 {
                     if(EAL(ref EAL_c1, ref labelTrue, ref labelFalse))
@@ -959,12 +969,17 @@ namespace LinguagensFormais
                         geralabel(ref RelTrue);
                         EAL_c += Rel_c + "\tif " + Rel_p + " goto " + RelTrue + "\n\tgoto " + labelFalse + "\n" + RelTrue + ":\n"
                                 + EAL_c1;
+                        //EAL_c += Rel_c + "\tif " + Rel_p + " goto " + RelTrue + "\n\tgoto " + labelFalse +
+                        //         "\n" + RelTrue + ":\n" + EAL_c1 + "\n";
+                        //EAL_c += Rel_c + "\n" + RelTrue + ":\n" + EAL_c1 + "\n";
                         return true;
                     }
                     else
                     {
                         geralabel(ref RelTrue);
                         EAL_c += Rel_c + "\tif " + Rel_p + " goto " + RelTrue + "\n\tgoto " + labelFalse + "\n" + RelTrue + ":\n";
+                        //EAL_c += Rel_c + RelTrue + ":\n";// + "\tgoto " + RelTrue + "\n";
+                        //MessageBox.Show(EAL_c);
                         return true;
                     }
                 }
@@ -976,6 +991,7 @@ namespace LinguagensFormais
             }
             else
             {
+                //EAL_c += "\tgoto " + labelTrue + "\n"; 
                 return false;
             }
         }
@@ -989,6 +1005,8 @@ namespace LinguagensFormais
             {
                 nextToken();
                 string EOL_c1 = "", Rel_c = "", Rel_p = "", RelTrue = "", RelFalse = "";
+                //geralabel(ref RelTrue);
+                //RelFalse = labelFalse;
                 if (Rel(ref Rel_c, ref Rel_p, ref RelTrue, ref RelFalse))
                 {
                     if (EOL(ref EOL_c1, ref labelTrue, ref labelFalse))
@@ -996,11 +1014,16 @@ namespace LinguagensFormais
                         geralabel(ref RelFalse);
                         EOL_c += Rel_c + "\tif " + Rel_p + " goto " + labelTrue + "\n\tgoto " + RelFalse + "\n" + RelFalse + ":\n"
                                 + EOL_c1 + "\n";
+                        //EOL_c += Rel_c + "\tif " + Rel_p + " goto " + labelTrue + EOL_c1;// + "\n\tgoto " + RelTrue +
+                                 //"\n" + RelTrue + ":\n" + EOL_c1 + "\n";
+                        //EAL_c += Rel_c + "\n" + RelTrue + ":\n" + EAL_c1 + "\n";
                         return true;
                     }
                     else
                     {
                         EOL_c += Rel_c + "\tif " + Rel_p + " goto " + labelTrue + "\n\tgoto " + labelFalse + "\n" + labelTrue + ":\n";
+                        //EAL_c += Rel_c + RelTrue + ":\n";// + "\tgoto " + RelTrue + "\n";
+                        //MessageBox.Show(EAL_c);
                         return true;
                     }
                 }
@@ -1012,6 +1035,7 @@ namespace LinguagensFormais
             }
             else
             {
+                //EAL_c += "\tgoto " + labelTrue + "\n"; 
                 return false;
             }
         }
@@ -1020,6 +1044,7 @@ namespace LinguagensFormais
         // Attribution ->    ID = FUNCTION | ID = EXP | ID += EXP | ID -= EXP | ID *= EXP | ID /= EXP 
         private Boolean Attribution(ref string Ap,ref string Ac)
         {
+            //if (presentToken == "TK.ID")
             if (Type())
             {
                 nextToken();
@@ -1028,6 +1053,10 @@ namespace LinguagensFormais
                     nextToken();
                     if (Function())
                         return true;
+                    /*else if (Expression())
+                    {
+                        return true;
+                    }*/
                     else
                         return false;
                 }
@@ -1036,6 +1065,8 @@ namespace LinguagensFormais
                     nextToken();
                     if (Function())
                         return true;
+                    /*else if (Expression())
+                        return true;*/
                     else
                         return false;
                 }
@@ -1044,6 +1075,8 @@ namespace LinguagensFormais
                     nextToken();
                     if (Function())
                         return true;
+                    /*else if (Expression())
+                        return true;*/
                     else
                         return false;
                 }
@@ -1052,6 +1085,8 @@ namespace LinguagensFormais
                     nextToken();
                     if (Function())
                         return true;
+                    /*else if (Expression())
+                        return true;*/
                     else
                         return false;
                 }
@@ -1060,6 +1095,8 @@ namespace LinguagensFormais
                     nextToken();
                     if (Function())
                         return true;
+                    /*else if (Expression())
+                        return true;*/
                     else
                         return false;
                 }

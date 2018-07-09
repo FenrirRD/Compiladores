@@ -1,0 +1,49 @@
+C:\Users\thiag\OneDrive\Documentos\Visual Studio 2017\Projects\LinguagensFormais\LinguagensFormais\bin\Debug\LinguagensFormais.exe.config
+C:\Users\thiag\OneDrive\Documentos\Visual Studio 2017\Projects\LinguagensFormais\LinguagensFormais\bin\Debug\LinguagensFormais.exe
+C:\Users\thiag\OneDrive\Documentos\Visual Studio 2017\Projects\LinguagensFormais\LinguagensFormais\bin\Debug\LinguagensFormais.pdb
+C:\Users\thiag\OneDrive\Documentos\Visual Studio 2017\Projects\LinguagensFormais\LinguagensFormais\obj\Debug\LinguagensFormais.csprojResolveAssemblyReference.cache
+C:\Users\thiag\OneDrive\Documentos\Visual Studio 2017\Projects\LinguagensFormais\LinguagensFormais\obj\Debug\LinguagensFormais.Form1.resources
+C:\Users\thiag\OneDrive\Documentos\Visual Studio 2017\Projects\LinguagensFormais\LinguagensFormais\obj\Debug\LinguagensFormais.Properties.Resources.resources
+C:\Users\thiag\OneDrive\Documentos\Visual Studio 2017\Projects\LinguagensFormais\LinguagensFormais\obj\Debug\LinguagensFormais.csproj.GenerateResource.Cache
+C:\Users\thiag\OneDrive\Documentos\Visual Studio 2017\Projects\LinguagensFormais\LinguagensFormais\obj\Debug\LinguagensFormais.exe
+C:\Users\thiag\OneDrive\Documentos\Visual Studio 2017\Projects\LinguagensFormais\LinguagensFormais\obj\Debug\LinguagensFormais.pdb
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais\bin\Debug\LinguagensFormais.exe.config
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais\bin\Debug\LinguagensFormais.exe
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais\bin\Debug\LinguagensFormais.pdb
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais\obj\Debug\LinguagensFormais.csprojResolveAssemblyReference.cache
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais\obj\Debug\LinguagensFormais.Form1.resources
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais\obj\Debug\LinguagensFormais.Properties.Resources.resources
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais\obj\Debug\LinguagensFormais.csproj.GenerateResource.cache
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais\obj\Debug\LinguagensFormais.csproj.CoreCompileInputs.cache
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais\obj\Debug\LinguagensFormais.exe
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais\obj\Debug\LinguagensFormais.pdb
+C:\Users\mateus.mikoaski\Downloads\LinguagensFormais_01\LinguagensFormais\bin\Debug\LinguagensFormais.exe.config
+C:\Users\mateus.mikoaski\Downloads\LinguagensFormais_01\LinguagensFormais\bin\Debug\LinguagensFormais.exe
+C:\Users\mateus.mikoaski\Downloads\LinguagensFormais_01\LinguagensFormais\bin\Debug\LinguagensFormais.pdb
+C:\Users\mateus.mikoaski\Downloads\LinguagensFormais_01\LinguagensFormais\obj\Debug\LinguagensFormais.csprojAssemblyReference.cache
+C:\Users\mateus.mikoaski\Downloads\LinguagensFormais_01\LinguagensFormais\obj\Debug\LinguagensFormais.Form1.resources
+C:\Users\mateus.mikoaski\Downloads\LinguagensFormais_01\LinguagensFormais\obj\Debug\LinguagensFormais.Properties.Resources.resources
+C:\Users\mateus.mikoaski\Downloads\LinguagensFormais_01\LinguagensFormais\obj\Debug\LinguagensFormais.csproj.GenerateResource.cache
+C:\Users\mateus.mikoaski\Downloads\LinguagensFormais_01\LinguagensFormais\obj\Debug\LinguagensFormais.csproj.CoreCompileInputs.cache
+C:\Users\mateus.mikoaski\Downloads\LinguagensFormais_01\LinguagensFormais\obj\Debug\LinguagensFormais.exe
+C:\Users\mateus.mikoaski\Downloads\LinguagensFormais_01\LinguagensFormais\obj\Debug\LinguagensFormais.pdb
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais_01\LinguagensFormais\obj\Debug\LinguagensFormais.csprojResolveAssemblyReference.cache
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais_01\LinguagensFormais\obj\Debug\LinguagensFormais.Form1.resources
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais_01\LinguagensFormais\obj\Debug\LinguagensFormais.Properties.Resources.resources
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais_01\LinguagensFormais\obj\Debug\LinguagensFormais.csproj.GenerateResource.cache
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais_01\LinguagensFormais\obj\Debug\LinguagensFormais.csproj.CoreCompileInputs.cache
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais_01\LinguagensFormais\obj\Debug\LinguagensFormais.exe
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais_01\LinguagensFormais\obj\Debug\LinguagensFormais.pdb
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais_01\LinguagensFormais\bin\Debug\LinguagensFormais.exe.config
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais_01\LinguagensFormais\bin\Debug\LinguagensFormais.exe
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais_01\LinguagensFormais\bin\Debug\LinguagensFormais.pdb
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais_01\Compiladores\bin\Debug\LinguagensFormais.exe.config
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais_01\Compiladores\bin\Debug\LinguagensFormais.exe
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais_01\Compiladores\bin\Debug\LinguagensFormais.pdb
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais_01\Compiladores\obj\Debug\LinguagensFormais.csprojResolveAssemblyReference.cache
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais_01\Compiladores\obj\Debug\LinguagensFormais.Form1.resources
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais_01\Compiladores\obj\Debug\LinguagensFormais.Properties.Resources.resources
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais_01\Compiladores\obj\Debug\LinguagensFormais.csproj.GenerateResource.cache
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais_01\Compiladores\obj\Debug\LinguagensFormais.csproj.CoreCompileInputs.cache
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais_01\Compiladores\obj\Debug\LinguagensFormais.exe
+E:\Documentos_2018\UCS_7_2018\2018_01\Compiladores\Linguagens Formais\Linguagens Formais\Analisador Léxico e Sintático\LinguagensFormais_01\Compiladores\obj\Debug\LinguagensFormais.pdb
